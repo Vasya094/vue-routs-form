@@ -1,22 +1,19 @@
 <template>
   <div id="app">
-    <div class="page" v-if="getSpinner">
-      <b-spinner class="spinner" :variant="'primary'" :key="'primary'"></b-spinner>
-    </div>
     <div id="nav">
-      <top-header></top-header>
+      <side-bar></side-bar>
     </div>
     <router-view />
   </div>
 </template>
 <script>
-import TopHeader from "@/components/top-header.vue";
+import SideBar from "@/components/SideBar.vue";
 import { mapGetters } from "vuex";
 export default {
-  components: { "top-header": TopHeader },
+  components: { "side-bar": SideBar },
   computed: {
-    ...mapGetters(["getSpinner"])
-  }
+    ...mapGetters(["getSpinner"]),
+  },
 };
 </script>
 
@@ -30,7 +27,12 @@ export default {
 }
 
 #nav {
-  padding: 30px;
+  width: 15vw;
+  height: 100vh;
+  max-width: 15vw;
+  width: 17rem;
+  border-right: 1px solid rgb(122, 122, 122);
+  box-shadow: 0 0px 4px 1px rgb(165, 165, 165);
 
   a {
     font-weight: bold;
