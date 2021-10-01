@@ -27,10 +27,12 @@ export default {
 }
 
 #nav {
-  width: 15vw;
   height: 100vh;
   max-width: 15vw;
-  width: 17rem;
+  height: 100vh;
+  max-width: 20rem;
+  width: 19rem;
+  min-width: 200px;
   border-right: 1px solid rgb(122, 122, 122);
   box-shadow: 0 0px 4px 1px rgb(165, 165, 165);
 

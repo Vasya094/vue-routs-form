@@ -37,8 +37,9 @@ export default {};
 }
 
 .header-container {
-  width: 85vw;
-  height: 7vh;
+  width: 100%;
+  height: 8vh;
+  min-height: 80px;
   border-bottom: 1px solid rgb(122, 122, 122);
   box-shadow: inset 0 -1px 0 0 rgba(165, 165, 165, 0.719);
   .flex-cont {
@@ -46,7 +47,7 @@ export default {};
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    height: 100%;
+    height: 113%;
 
     .left-side,
     .right-side {

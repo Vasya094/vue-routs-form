@@ -8,9 +8,9 @@
       class="p-1"
       role="tab"
     >
-      <div block>
+      <div block class="item-header-cont">
         <span class="item-header">Personal Information </span>
-        <span>
+        <span class="open-close-arrow">
           <img
             class="arrow"
             v-if="down"
@@ -161,6 +161,9 @@ export default {
   border-radius: 10px;
   cursor: pointer;
 }
+.open-close-arrow {
+  margin-right: 22px;
+}
 .widget-container {
   border-radius: 10px;
 }
@@ -170,5 +173,10 @@ export default {
   position: relative;
   left: 42%;
   top: 10px;
+}
+.item-header-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 </style>

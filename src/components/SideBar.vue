@@ -12,7 +12,12 @@
             src="../../public/left-arrow.svg"
             alt="up-arrow.svg"
           />
-          <img class="arrow" src="../../public/lines.svg" alt="up-arrow.svg" />
+          <img
+            class="arrow"
+            id="menu"
+            src="../../public/lines.svg"
+            alt="up-arrow.svg"
+          />
         </div>
       </div>
       <div class="down-side-bar-header">
@@ -123,8 +128,11 @@ export default {};
 }
 #TANGLE {
   color: #13131d;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 800;
+  align-self: end;
+  width: 45%;
+  text-align: start;
 }
 #WN {
   color: white;
@@ -146,7 +154,6 @@ export default {};
 .down-side-bar-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   margin: 20px 30px 20px 17px;
 }
 .left-arrow {
@@ -155,8 +162,11 @@ export default {};
 }
 .down-side-bar-right {
   display: flex;
+  margin-left: 7%;
   flex-direction: column;
+  font-size: 14px;
   align-items: start;
+  align-self: center;
 }
 .work-space {
   font-weight: bolder;
@@ -183,5 +193,8 @@ export default {};
 }
 #logo {
   width: 44px;
+}
+#menu {
+  margin-right: 10px;
 }
 </style>

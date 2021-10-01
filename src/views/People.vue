@@ -46,6 +46,13 @@ export default {
 }
 .people-item-card {
   border-radius: 10px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+.home {
+  min-width: 100px;
+  width: 84%;
 }
 .item-header {
   float: left;
