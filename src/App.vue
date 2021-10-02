@@ -28,10 +28,9 @@ export default {
 
 #nav {
   height: 100vh;
-  max-width: 15vw;
-  height: 100vh;
   max-width: 20rem;
   width: 19rem;
+  z-index: 3;
   min-width: 200px;
   border-right: 1px solid rgb(122, 122, 122);
   box-shadow: 0 0px 4px 1px rgb(165, 165, 165);
@@ -51,6 +50,10 @@ export default {
   z-index: 25;
   width: 100%;
   height: 100%;
+}
+.companies {
+  min-width: 100px;
+  width: 84%;
 }
 .spinner {
   z-index: 26;

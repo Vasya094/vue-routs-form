@@ -39,7 +39,7 @@
       </b-navbar>
       <div class="second-container">
         <b-card id="new-page" no-body class="text-center">
-          <div>
+          <div id="new-page-btn">
             <span class="new-page"
               ><span>
                 <img
@@ -95,7 +95,11 @@ export default {};
 }
 #new-page {
   background-color: #f7f9fd;
-  width: 80%;
+  width: 83%;
+  margin-left: 3px;
+  height: 32px;
+  justify-content: center;
+  align-items: flex-start;
   cursor: pointer;
 }
 .pages-links {
@@ -118,6 +122,7 @@ export default {};
 }
 .second-container {
   display: flex;
+  margin-top: 16px;
   justify-content: center;
 }
 .side-bar-header {
@@ -180,6 +185,9 @@ export default {};
   width: 13px;
   height: 13px;
   margin-right: 10px;
+}
+#new-page-btn {
+  margin-left: 14px;
 }
 #tangle-option {
   height: 29vh;

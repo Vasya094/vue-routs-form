@@ -47,7 +47,7 @@ export default {
 .people-item-card {
   border-radius: 10px;
   display: flex;
-  height: 100%;
+  height: 53px;
   justify-content: center;
 }
 .home {

@@ -9,7 +9,9 @@
       role="tab"
     >
       <div block class="item-header-cont">
-        <span class="item-header">Personal Information </span>
+        <span class="item-header personal_information"
+          >Personal Information</span
+        >
         <span class="open-close-arrow">
           <img
             class="arrow"
@@ -157,7 +159,7 @@ export default {
 #form-toggle {
   background-color: #fff !important;
   border-bottom: none !important;
-  height: 5vh;
+  height: 53px;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -178,5 +180,8 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.personal_information {
+  margin-bottom: 3px !important;
 }
 </style>
