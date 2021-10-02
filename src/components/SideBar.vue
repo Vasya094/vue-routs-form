@@ -126,9 +126,9 @@ export default {};
   justify-content: center;
 }
 .side-bar-header {
-  margin-top: 20px;
+  margin: 21px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: stretch;
 }
 #TANGLE {

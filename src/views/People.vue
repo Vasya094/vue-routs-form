@@ -36,7 +36,7 @@ export default {
 </script>
 <style>
 .people-contant {
-  height: 100%;
+  height: 90%;
   background-color: #fafafa;
 }
 .people-item {
