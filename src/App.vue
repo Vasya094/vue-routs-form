@@ -25,12 +25,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   height: 100vh;
+  width: 100vw;
 }
 
 #nav {
-  height: 100vh;
+  height: 103vh;
   max-width: 260px;
-  width: 19rem;
+  width: 260px;
   z-index: 3;
   min-width: 200px;
   border-right: 1px solid rgb(122, 122, 122);
