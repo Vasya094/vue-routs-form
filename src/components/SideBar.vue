@@ -176,7 +176,7 @@ export default {};
 }
 .down-side-bar-right {
   display: flex;
-  margin-left: 7%;
+  margin-left: 8%;
   height: 40px;
   justify-content: space-between;
   flex-direction: column;
