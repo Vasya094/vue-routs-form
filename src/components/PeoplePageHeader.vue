@@ -13,12 +13,13 @@
         <div id="edit-row-text">Edit row</div>
       </div>
       <div class="right-side">
-        <div><b-button variant="primary">Edit form</b-button></div>
+        <div><b-button class="edit-form-btn">Edit form</b-button></div>
         <div>
           <span>
             <img
               src="../../public/more.svg"
               id="edit-form-icon"
+              class="dotted-menu"
               alt="up-arrow.svg"
           /></span>
         </div>
@@ -40,8 +41,8 @@ export default {};
   width: 100%;
   height: 8vh;
   min-height: 80px;
-  border-bottom: 1px solid rgb(122, 122, 122);
-  box-shadow: inset 0 -1px 0 0 rgba(165, 165, 165, 0.719);
+  border-bottom: 1px solid rgba(172, 172, 172, 0.376);
+  box-shadow: inset 0 -1px 0 0 rgba(182, 182, 182, 0.335);
   .flex-cont {
     display: flex;
     flex-direction: row;
@@ -57,21 +58,33 @@ export default {};
       align-self: center;
     }
     .right-side {
-      margin-right: 70px;
+      margin-right: 20px;
     }
   }
   #edit-row-icon,
   #edit-form-icon {
     width: 17px;
-    margin: 9px 15px 0;
+    margin: 8px 15px 0;
     cursor: pointer;
+  }
+  .dotted-menu {
+    margin-top: 12px !important;
   }
   #edit-row-text {
     font-size: 22px;
     font-weight: bold;
     cursor: pointer;
   }
-  #edit-form-icon {
+
+  .edit-form-btn {
+    background-color: #6197f9;
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+
+    &:hover {
+      background-color: #6196f9bb;
+    }
   }
 }
 </style>

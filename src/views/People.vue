@@ -2,10 +2,10 @@
   <div class="home">
     <people-page-header />
     <div class="people-contant">
-      <div style="padding: 40px;">
+      <div style="padding: 30px;">
         <drop-down-form />
         <div class="people-item">
-          <b-card style="height: 100%;" no-body class="people-item-card mb-1">
+          <b-card style="height: 70px;" no-body class="people-item-card mb-1">
             <div>
               <span class="item-header">Contacts</span>
             </div>
@@ -41,24 +41,24 @@ export default {
 }
 .people-item {
   height: 5vh;
-  margin-top: 20px;
+  margin-top: 30px;
   border-radius: 10px;
 }
 .people-item-card {
   border-radius: 10px;
   display: flex;
-  height: 53px;
+  height: 70px;
   justify-content: center;
 }
 .home {
   min-width: 100px;
-  width: 84%;
+  width: 88%;
 }
 .item-header {
   float: left;
   font-size: 18px;
   font-weight: 700;
-  margin: 10px;
+  margin: 10px 10px 10px 20px;
   width: max-content;
 }
 </style>

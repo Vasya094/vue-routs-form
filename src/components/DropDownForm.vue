@@ -96,18 +96,15 @@ export default {
         food: null,
         checked: [],
       },
-      foods: [
-        { text: "Select One", value: null },
-        "Carrots",
-        "Beans",
-        "Tomatoes",
-        "Corn",
-      ],
       show: true,
       down: false,
       selected: null,
       options: [
-        { value: null, text: "Select option" },
+        {
+          html: "<span style='color: red'>Select option</span>",
+          value: "null",
+          id: "default-select",
+        },
         { value: "a", text: "Admin" },
         { value: "b", text: "User" },
         { value: "c", text: "Customer" },
@@ -144,6 +141,12 @@ export default {
 }
 .input-label {
   float: left;
+  font-weight: bold;
+  font-size: small;
+  margin-bottom: 10px;
+}
+.form-control {
+  height: 40px;
 }
 .custom-select {
   -moz-appearance: none;
@@ -155,11 +158,12 @@ export default {
 }
 .form-group {
   width: 48%;
+  margin-bottom: 14px;
 }
 #form-toggle {
   background-color: #fff !important;
   border-bottom: none !important;
-  height: 53px;
+  height: 70px;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -174,7 +178,7 @@ export default {
   height: 14px;
   position: relative;
   left: 42%;
-  top: 10px;
+  top: 18px;
 }
 .item-header-cont {
   display: flex;
@@ -182,6 +186,12 @@ export default {
   justify-content: space-between;
 }
 .personal_information {
-  margin-bottom: 3px !important;
+  margin: 18px 17px 3px !important;
+}
+#first-option {
+  color: green;
+}
+.custom-select {
+  color: rgb(168, 168, 168);
 }
 </style>

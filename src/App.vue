@@ -25,7 +25,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   height: 100vh;
-  width: 100vw;
+  width: 99vw;
 }
 
 #nav {
@@ -34,8 +34,8 @@ export default {
   width: 260px;
   z-index: 3;
   min-width: 200px;
-  border-right: 1px solid rgb(122, 122, 122);
-  box-shadow: 0 0px 4px 1px rgb(165, 165, 165);
+  border-right: 1px solid rgba(179, 179, 179, 0.424);
+  box-shadow: 0 0px 2px 1px rgba(182, 182, 182, 0.5);
 
   a {
     font-weight: bold;

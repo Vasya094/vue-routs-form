@@ -6,7 +6,7 @@
           ><img src="../../public/logo.png" id="logo" alt="up-arrow.svg"
         /></span>
         <span id="TANGLE">TANGLE</span>
-        <div>
+        <div style="margin-top: -7px;">
           <img
             class="arrow left-arrow"
             src="../../public/left-arrow.svg"
@@ -24,7 +24,7 @@
         <div class="WN-cont"><span id="WN">WN</span></div>
         <div class="down-side-bar-right">
           <div class="work-space">Workspace name</div>
-          <div>4 members</div>
+          <div class="members">4 members</div>
         </div>
       </div>
     </div>
@@ -53,12 +53,12 @@
         </b-card>
       </div>
     </div>
-    <hr />
+    <hr id="second-hr" />
 
     <div>
       <div class="third-container">
         <b-card id="tangle-option" no-body class="text-center">
-          <div class="Tangle">
+          <div class="Tangle Tangle-header">
             <span class="work-space">Tangle options</span>
           </div>
           <div class="Tangle">
@@ -88,6 +88,7 @@ export default {};
 }
 .nav-item {
   text-align: initial;
+  margin-top: -4px;
 }
 #side-bar {
   padding: 0;
@@ -97,7 +98,7 @@ export default {};
   background-color: #f7f9fd;
   width: 83%;
   margin-left: 3px;
-  height: 32px;
+  height: 38px;
   justify-content: center;
   align-items: flex-start;
   cursor: pointer;
@@ -122,7 +123,7 @@ export default {};
 }
 .second-container {
   display: flex;
-  margin-top: 16px;
+  margin-top: 10px;
   justify-content: center;
 }
 .side-bar-header {
@@ -168,6 +169,8 @@ export default {};
 .down-side-bar-right {
   display: flex;
   margin-left: 7%;
+  height: 50px;
+  justify-content: space-between;
   flex-direction: column;
   font-size: 14px;
   align-items: start;
@@ -175,6 +178,7 @@ export default {};
 }
 .work-space {
   font-weight: bolder;
+  margin: top;
 }
 .third-container {
   display: flex;
@@ -197,12 +201,21 @@ export default {};
 .Tangle {
   margin: 10px;
   text-align: justify;
-  margin-left: 30px;
+  margin-left: 22px;
 }
 #logo {
   width: 44px;
 }
 #menu {
   margin-right: 10px;
+}
+.members {
+  line-height: normal;
+}
+#second-hr {
+  margin: 20px 0;
+}
+.Tangle-header {
+  margin-top: 18px;
 }
 </style>
