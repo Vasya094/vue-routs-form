@@ -31,15 +31,15 @@ export default {
 #nav {
   height: 103vh;
   max-width: 260px;
-  width: 260px;
+  width: 295px;
   z-index: 3;
   min-width: 200px;
-  border-right: 1px solid rgba(179, 179, 179, 0.424);
   box-shadow: 0 0px 2px 1px rgba(182, 182, 182, 0.5);
 
   a {
     font-weight: bold;
     color: #2c3e50;
+    font-size: 15px;
 
     &.router-link-exact-active {
       color: #42b983;

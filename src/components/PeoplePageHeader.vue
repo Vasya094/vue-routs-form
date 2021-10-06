@@ -79,8 +79,9 @@ export default {};
   .edit-form-btn {
     background-color: #6197f9;
     border: none;
-    height: 40px;
     border-radius: 8px;
+    height: 44px;
+    width: 115px;
 
     &:hover {
       background-color: #6196f9bb;

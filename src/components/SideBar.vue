@@ -2,11 +2,18 @@
   <div>
     <div>
       <div class="side-bar-header">
-        <span
+        <!-- <span
           ><img src="../../public/logo.png" id="logo" alt="up-arrow.svg"
         /></span>
-        <span id="TANGLE">TANGLE</span>
-        <div style="margin-top: -7px;">
+        <span id="TANGLE">TANGLE</span> -->
+        <div>
+          <img
+            style="width: 164px;"
+            src="../../public/main-logo.png"
+            alt="down-arrow"
+          />
+        </div>
+        <div style="margin-top: -10px;">
           <img
             class="arrow left-arrow"
             src="../../public/left-arrow.svg"
@@ -46,8 +53,9 @@
                   class="new-page-plus"
                   id="plus"
                   src="../../public/plus.svg"
-                  alt="up-arrow.svg"/></span
-              >New page</span
+                  alt="up-arrow.svg"
+              /></span>
+              <span class="new-page-text">New page</span></span
             >
           </div>
         </b-card>
@@ -68,7 +76,7 @@
                   src="../../public/splitting.svg"
                   id="dash-icon"
                   alt="up-arrow.svg"/></span
-              >Dashboard</span
+              ><span style="vertical-align: middle;">Dashboard</span></span
             >
           </div>
         </b-card>
@@ -95,8 +103,8 @@ export default {};
   margin-top: 15px;
 }
 #new-page {
-  background-color: #f7f9fd;
-  width: 83%;
+  background-color: #f6f9fe;
+  width: 88%;
   margin-left: 3px;
   height: 38px;
   justify-content: center;
@@ -114,8 +122,8 @@ export default {};
   color: #2c3e50;
 }
 #plus {
-  width: 10px;
-  height: 10px;
+  width: 13px;
+  height: 13px;
   margin-right: 20px;
 }
 .new-page {
@@ -127,7 +135,7 @@ export default {};
   justify-content: center;
 }
 .side-bar-header {
-  margin: 21px;
+  margin: 25px 21px 32px 21px;
   display: flex;
   justify-content: space-between;
   align-content: stretch;
@@ -144,8 +152,8 @@ export default {};
   color: white;
 }
 .WN-cont {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,7 +177,7 @@ export default {};
 .down-side-bar-right {
   display: flex;
   margin-left: 7%;
-  height: 50px;
+  height: 40px;
   justify-content: space-between;
   flex-direction: column;
   font-size: 14px;
@@ -195,27 +203,34 @@ export default {};
 }
 #tangle-option {
   height: 29vh;
-  margin: 0 9%;
-  background-color: #f7f9fd;
+  margin: 0 6%;
+  background-color: #f6f9fe;
 }
 .Tangle {
   margin: 10px;
   text-align: justify;
-  margin-left: 22px;
+  margin-left: 20px;
+  font-size: 14px;
 }
 #logo {
   width: 44px;
 }
 #menu {
   margin-right: 10px;
+  cursor: pointer;
 }
 .members {
   line-height: normal;
+  font-size: 13px;
 }
 #second-hr {
   margin: 20px 0;
 }
 .Tangle-header {
   margin-top: 18px;
+}
+.new-page-text {
+  font-size: 14px;
+  -webkit-text-stroke-width: thin;
 }
 </style>
