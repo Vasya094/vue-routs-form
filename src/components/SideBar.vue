@@ -40,8 +40,12 @@
     <div>
       <b-navbar id="side-bar" toggleable="lg" type="dark" variant="white">
         <b-navbar-nav class="pages-links">
-          <b-nav-item to="/people">People</b-nav-item>
-          <b-nav-item to="/companies">Companies</b-nav-item>
+          <b-nav-item to="/people"
+            ><span class="link-span">People</span></b-nav-item
+          >
+          <b-nav-item to="/companies"
+            ><span class="link-span">Companies</span></b-nav-item
+          >
         </b-navbar-nav>
       </b-navbar>
       <div class="second-container">
@@ -106,6 +110,7 @@ export default {};
   background-color: #f6f9fe;
   width: 88%;
   margin-left: 3px;
+  border-radius: 8px;
   height: 38px;
   justify-content: center;
   align-items: flex-start;
@@ -116,9 +121,12 @@ export default {};
   flex-direction: column;
   padding: 0 !important;
   width: 100%;
+  justify-content: space-around;
+  height: 82px;
 }
 #nav a {
   font-weight: 500;
+  height: 42px;
   color: #2c3e50;
 }
 #plus {
@@ -135,7 +143,7 @@ export default {};
   justify-content: center;
 }
 .side-bar-header {
-  margin: 25px 21px 32px 21px;
+  margin: 25px 21px 30px 21px;
   display: flex;
   justify-content: space-between;
   align-content: stretch;
@@ -204,6 +212,7 @@ export default {};
 #tangle-option {
   height: 29vh;
   margin: 0 6%;
+  border-radius: 8px;
   background-color: #f6f9fe;
 }
 .Tangle {
@@ -232,5 +241,9 @@ export default {};
 .new-page-text {
   font-size: 14px;
   -webkit-text-stroke-width: thin;
+}
+.link-span {
+  position: relative;
+  top: 2px;
 }
 </style>
