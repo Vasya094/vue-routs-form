@@ -8,12 +8,12 @@
         <span id="TANGLE">TANGLE</span> -->
         <div>
           <img
-            style="width: 164px;"
+            id="main-logo-img"
             src="../../public/main-logo.png"
             alt="down-arrow"
           />
         </div>
-        <div style="margin-top: -10px;">
+        <div style="margin-top: -12px;">
           <img
             class="arrow left-arrow"
             src="../../public/left-arrow.svg"
@@ -245,5 +245,9 @@ export default {};
 .link-span {
   position: relative;
   top: 2px;
+}
+#main-logo-img {
+  width: 164px;
+  height: 37px;
 }
 </style>
